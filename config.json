@@ -1,0 +1,23 @@
+{
+
+"backends" : [
+    {
+        
+        "name": "main",
+        "main": true,
+        "address": "localhost",
+        "port": "9000",
+        "protokol": "http"
+
+    },
+    {
+        "name": "reserv",
+        "main": false,
+        "address": "localhost",
+        "port": "9000",
+        "protokol": "http"
+
+    }
+]
+
+}
